@@ -1,0 +1,5 @@
+find . -type f -name "a*"
+find . -type f -name "*.txt"
+find . -maxdepth 1 -type f -name "?????"
+find . -type f -name "[be]*"
+find . -type f -name "?[0-9]**.log"
