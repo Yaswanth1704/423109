@@ -1,0 +1,5 @@
+cpio -o <data.txt>archive
+cpio -o <App>archiv
+cpio -i <yarchive.tar>
+cpio -o <archiv>
+cpio -i <archiv>
