@@ -1,0 +1,5 @@
+uname
+logname
+hostname
+cal jan 2024
+cal 02 1995
