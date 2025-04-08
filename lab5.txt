@@ -1,0 +1,5 @@
+sed 's/\(\w*\)\(.*\)\(\w*\3 \2 \1/' input.txt
+sed 's/\(\b\w\+\b\)\1/\1/g' duplicates.txt
+sed's^/\(.\+\)@/\*/g' email.txt
+sort -f input_file.txt | uniq -i
+sed 's/\s\+/n\g' input_file.txt | tac | paste -sd ' ' - 
