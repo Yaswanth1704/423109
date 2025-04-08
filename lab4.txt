@@ -1,0 +1,5 @@
+grep -i "error" logfile.txt
+grep -i "success" data.txt
+grep -i "^[0-9]" records.txt
+grep -v -i "failed" file.txt
+grep -i "todo" *.txt
